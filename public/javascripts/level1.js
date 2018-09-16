@@ -2,7 +2,7 @@ function submit() {
     var c = document.getElementById("code");
     $.post("https://damp-taiga-13917.herokuapp.com/level1", {code : c.value}, function(data) {
         if(data === "Yes") {
-            alert("You are probably the most interesting person but terrible at bowling.")
+            alert("Impressive. Let's see if you can keep up.");
             window.location.href= "https://damp-taiga-13917.herokuapp.com/level2";
         }
         else {
