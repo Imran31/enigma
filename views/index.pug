@@ -1,5 +1,70 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  link(rel='stylesheet', href='/stylesheets/level1.css')
+  
+  .container
+    .row
+      .col-md-5
+        .greeting
+          p Greetings Major S.
+          p We have an important assignment for you.
+          p Your arch nemesis has left us baffled
+          p with messages that our nations best 
+          p couldn't decipher.
+          p Your mission, if you choose to accept
+          p Crack the code.
+          p Save the world.
+      .col-md-6
+        .octopus
+          pre
+            |                        ___
+            |                    .-'   `'.
+            |                    /         \
+            |                    |         ;
+            |                    |         |           ___.--,
+            |           _.._     |0) ~ (0) |    _.---'`__.-( (_.
+            |    __.--'`_.. '.__.\    '--. \_.-' ,.--'`     `""`
+            |  ( ,.--'`   ',__ /./;   ;, '.__.'`    __
+            |  _`) )  .---.__.' / |   |\   \__..--""  """--.,_
+            |  `---' .'.''-._.-'`_./  /\ '.  \ _.-~~~````~~~-._`-.__.'
+            |        | |  .' _.-' |  |  \  \  '.               `~---`
+            |        \ \/ .'     \  \   '. '-._)
+            |          \/ /        \  \    `=.__`~-.
+            |         / /\         `) )    / / `"".`\
+            |    , _.-'.'\ \        / /    ( (     / /
+            |    `--~`   ) )    .-'.'      '.'.  | (
+            |            (/`    ( (`          ) )  '-;
+            |            `      '-;         (-'
+    br
+    br
+    .row
+      .col-md-4
+        p Code: ahrfk gqaf
+        hr
+
+        p Armee, Marine
+        hr
+        p Rotor 1 : III
+        p Rotor 2 : II
+        p Rotor 3 : I
+        hr
+        p Alle Ringe auf 1 gesetzt
+        hr
+        p Erstes Treffen
+        p Position 1 : DD  
+        p Position 2: MM
+        p Position 3: YY
+        hr
+        p Plugboard: ms
+        hr
+        p Reflektor: UKW C
+        br
+        p PS: Alte Nachrichten sind ein guter Ort, um zu schauen
+
+      .col-md-6
+        .form-group
+          input.form-control(type=text, placeholder="All lowercase, no spaces, no punctuation", width="60", id="code")
+          br
+          button.btn.btn-danger(onclick="submit()") Submit
+  script(src='/javascripts/level1.js')
