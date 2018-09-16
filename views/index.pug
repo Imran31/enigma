@@ -39,32 +39,19 @@ block content
     br
     br
     .row
-      .col-md-4
-        p Code: ahrfk gqaf
-        hr
-
-        p Armee, Marine
-        hr
-        p Rotor 1 : III
-        p Rotor 2 : II
-        p Rotor 3 : I
-        hr
-        p Alle Ringe auf 1 gesetzt
-        hr
-        p Erstes Treffen
-        p Position 1 : DD  
-        p Position 2: MM
-        p Position 3: YY
-        hr
-        p Plugboard: ms
-        hr
-        p Reflektor: UKW C
+      .col-md-12
+        p What is common amongst these pictures?
         br
-        p PS: Alte Nachrichten sind ein guter Ort, um zu schauen
-
+        img.img-circle(src="/images/c1.jpg")
+        img.img-circle(src="/images/c2.jpg")
+        img.img-circle(src="/images/c3.jpg")
+        img.img-circle(src="/images/c4.png")
+        img.img-circle(src="/images/c5.jpg")
+      br
       .col-md-6
         .form-group
-          input.form-control(type=text, placeholder="All lowercase, no spaces, no punctuation", width="60", id="code")
+          br
+          input.form-control(type=text, placeholder="All lowercase, no spaces, no punctuation, last name", width="60", id="code")
           br
           button.btn.btn-danger(onclick="submit()") Submit
   script(src='/javascripts/level1.js')

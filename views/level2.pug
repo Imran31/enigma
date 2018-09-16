@@ -1,0 +1,30 @@
+extends layout
+
+block content
+  link(rel='stylesheet', href='/stylesheets/level2.css')
+  
+  .container
+    .row
+      .col-md-5
+        .congrats
+          p Congratulations Major S.
+          p Let us see how you will fare
+          p in this challenge.
+    br
+    .row
+      .col-md-12
+        p ¿Quién tiene los mejores bollos?
+        br
+        img.img-circle(src="/images/im1.jpg", alt="Emelia Clarke")
+        img.img-circle(src="/images/im2.png", alt="Ryan Gosling")
+        img.img-circle(src="/images/im3.jpg", alt="Nathalie Emmanuel")
+        img.img-circle(src="/images/im4.jpg", alt="Johnny Depp")
+        br
+    .row
+      .col-md-6
+        br
+        .form-group
+          input.form-control(type=text, placeholder="All lowercase, no spaces, first name only", width="60", id="code")
+          br
+          button.btn.btn-danger(onclick="submit()") Submit
+  script(src='/javascripts/level2.js')

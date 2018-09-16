@@ -8,9 +8,8 @@ body {
     color: rgb(255, 0, 0);
 }
 
-img {
-    width: 200px;
-    height: 200px;
+.eye {
+    font-size: 0.5em;
 }
 
 pre {

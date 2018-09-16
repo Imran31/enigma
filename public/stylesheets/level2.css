@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.face {
+    font-size: 3em;
+}

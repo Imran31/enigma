@@ -1,0 +1,78 @@
+extends layout
+
+block content
+  link(rel='stylesheet', href='/stylesheets/level3.css')
+  
+  .container
+    .row
+      .col-md-5
+        .greeting
+          p Greetings Major S.
+          p We have an important assignment for you.
+          p Your arch nemesis has left us baffled
+          p with messages that our nations best 
+          p couldn't decipher.
+          p Your mission, if you choose to accept
+          p Crack the code.
+          p Save the world.
+      .col-md-6
+        .eye
+          pre
+            |.           ..         .           .       .           .           .
+            |    .         .            .          .       .
+            |            .         ..xxxxxxxxxx....               .       .             .
+            |    .             MWMWMWWMWMWMWMWMWMWMWMWMW                       .
+            |            IIIIMWMWMWMWMWMWMWMWMWMWMWMWMWMttii:        .           .
+            |.      IIYVVXMWMWMWMWMWMWMWMWMWMWMWMWMWMWMWMWMWMWMWxx...         .           .
+            |    IWMWMWMWMWMWMWMWMWMWMWMWMWMWMWMWMWMWMWMWMWMWMWMWMWMWMx..
+            |IIWMWMWMWMWMWMWMWMWBY%ZACH%AND%OWENMWMWMWMWMWMWMWMWMWMWMWMWMx..        .
+            |    ""MWMWMWMWMWM"""""""".  .:..   ."""""MWMWMWMWMWMWMWMWMWMWMWMWMWti.
+            |.     ""   . `  .: . :. : .  . :.  .  . . .  """"MWMWMWMWMWMWMWMWMWMWMWMWMti=
+            |        . .   :` . :   .  .'.' '....xxxxx...,'. '   ' ."""YWMWMWMWMWMWMWMWMWMW+
+            |    ; . ` .  . : . .' :  . ..XXXXXXXXXXXXXXXXXXXXx.    `     . "YWMWMWMWMWMWMW
+            |.    .  .  .    . .   .  ..XXXXXXXXWWWWWWWWWWWWWWWWXXXX.  .     .     """""""
+            |        ' :  : . : .  ...XXXXXWWW"   W88N88@888888WWWWWXX.   .   .       . .
+            |. ' .    . :   ...XXXXXXWWW"    M88N88GGGGGG888^8M "WMBX.          .   ..  :
+            |        :     ..XXXXXXXXWWW"     M88888WWRWWWMW8oo88M   WWMX.     .    :    .
+            |        "XXXXXXXXXXXXWW"       WN8888WWWWW  W8@@@8M    BMBRX.         .  : :
+            |.       XXXXXXXX=MMWW":  .      W8N888WWWWWWWW88888W      XRBRXX.  .       .
+            |    ....  ""XXXXXMM::::. .        W8@889WWWWWM8@8N8W      . . :RRXx.    .
+            |        ``...'''  MMM::.:.  .      W888N89999888@8W      . . ::::"RXV    .  :
+            |.       ..'''''      MMMm::.  .      WW888N88888WW     .  . mmMMMMMRXx
+            |    ..' .            ""MMmm .  .       WWWWWWW   . :. :,miMM"""  : ""`    .
+            |.                .       ""MMMMmm . .  .  .   ._,mMMMM"""  :  ' .  :
+            |            .                  ""MMMMMMMMMMMMM""" .  : . '   .        .
+            |        .              .     .    .                      .         .
+            |.                                         .          .         .
+    br
+    br
+    .row
+      .col-md-4
+        p Code: ahrfk gqaf
+        hr
+
+        p Armee, Marine
+        hr
+        p Rotor 1 : III
+        p Rotor 2 : II
+        p Rotor 3 : I
+        hr
+        p Alle Ringe auf 1 gesetzt
+        hr
+        p Erstes Treffen
+        p Position 1 : DD  
+        p Position 2: MM
+        p Position 3: YY
+        hr
+        p Plugboard: ms
+        hr
+        p Reflektor: UKW C
+        br
+        p PS: Alte Nachrichten sind ein guter Ort, um zu schauen
+
+      .col-md-6
+        .form-group
+          input.form-control(type=text, placeholder="All lowercase, no spaces, no punctuation", width="60", id="code")
+          br
+          button.btn.btn-danger(onclick="submit()") Submit
+  script(src='/javascripts/level3.js')
