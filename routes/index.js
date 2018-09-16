@@ -10,8 +10,8 @@ router.get('/level2', function(req, res, next) {
   res.render('level2', { title: 'Meilleurs brioches'})
 });
 
-router.get('/thelevel3', function(req, res, next) {
-  res.render('thelevel3', { title: 'All seeing'})
+router.get('/level3', function(req, res, next) {
+  res.render('level3', { title: 'All seeing'})
 });
 
 router.get('/end', function(req, res, next) {
