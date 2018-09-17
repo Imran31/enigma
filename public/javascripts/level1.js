@@ -8,5 +8,8 @@ function submit() {
         else {
             alert("N");
         }
-    })
+    });
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();   
+    });
 }
