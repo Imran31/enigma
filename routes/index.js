@@ -28,7 +28,7 @@ router.post('/level1', function(req, res, next) {
 });
 
 router.post('/level2', function(req, res, next) {
-  if(req.body.code === "shubra") {
+  if(req.body.code === "shubhra") {
     res.send("Yes");
   }
   else {
